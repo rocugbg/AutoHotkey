@@ -1,4 +1,4 @@
-#1::Run www.google.com ;WIN+1
+#1::Run www.google.com	;WIN+1 opens Google.com
 
 #2::Run www.gmail.com
 
@@ -12,9 +12,14 @@
 
 #d::Run www.dn.se
 
-#m::Send {Volume_Mute}  ; Mute/unmute the master volume.
+#m::Send {Volume_Mute}	;Mute/unmute the master volume.
 
-#s:: ;WIN+s changes default sound device
+^!a::					;CTRL+ALT+A open Avanza and Avanza Mini
+Run https://www.avanza.se/mini/mitt_konto
+Run https://www.avanza.se/aza/depa/sammanfattning/sammanfattning.jsp
+return
+
+#s::					;WIN+S changes default sound device
 Run, mmsys.cpl
 WinWait,Sound
 ControlSend,SysListView321,{Down 2}
@@ -25,11 +30,11 @@ if(!isEnabled)
 }
 ControlClick,&Set Default
 ControlClick,OK
-; WinWaitClose
-; SoundPlay, *-1
 return
 
-^!n:: ;CTRL+ALT+N
+^!c::Run calc.exe		;CTRL+ALT+C opens Calculator
+
+^!n::					;CTRL+ALT+N opens Notepad
 IfWinExist Untitled - Notepad
 	WinActivate
 else
