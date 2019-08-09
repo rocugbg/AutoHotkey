@@ -5,12 +5,12 @@ My personal AutoHotkey scripts.
   
 
 Includes some shortcuts  
---------------------
-* to web pages.
-* to change the default playback device.
-* to mute/unmute the master volume.
-* to open the calculator.
-* to open notepad.
+-----------------------
+* to web pages
+* to mute/unmute the master volume
+* to open the calculator
+* to open notepad
+* to minimize active window (like on Mac OS MAC+H)
 
 
 Download AutoHotkey [here](http://www.autohotkey.com).  
