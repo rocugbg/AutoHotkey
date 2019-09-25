@@ -2,18 +2,18 @@ AutoHotkey
 ==========
 
 My personal AutoHotkey scripts.  
-  
 
-Includes some shortcuts  
------------------------
-* to web pages
-* to mute/unmute the master volume
-* to open the calculator
-* to open notepad
-* to minimize active window (like on Mac OS MAC+H)
-
+Shortcuts  
+---------
+| Shortcuts | Description                 |
+| --------- | -----------                 |
+| WIN+G     | Go to google.com            |
+| WIN+S     | Go to stackoverflow.com     |
+| WIN+M     | Mute/unmute the volume      |
+| WIN+C     | Open the calculator         |
+| WIN+H     | Minimize the current window |
+| CAPS LOCK | Acts as Shift button        |
 
 Download AutoHotkey [here](http://www.autohotkey.com).  
-  
 
 After installing AutoHotKey just doubleclick on the .ahk-file to start it. If you change the script file don't forget to reload the script from the menu.
