@@ -11,3 +11,7 @@
 ; Caps Lock acts as Shift
 Capslock::Shift
 return
+
+; Always on Top
+^SPACE:: Winset, Alwaysontop, , A ; ctrl + space
+Return
