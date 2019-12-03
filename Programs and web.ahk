@@ -1,6 +1,6 @@
 #g::Run www.google.com			;WIN+G opens Google.com
 
-#s::Run www.stackoverflow.com
+#s::Run www.stackoverflow.com	;WIN+S opens StackOverflow.com
 
 #m::Send {Volume_Mute}			;Mute/unmute the master volume.
 
@@ -8,9 +8,7 @@
 
 #h::WinMinimize, A				;WIN+H minimizes active window
 
-; Caps Lock acts as Shift
-Capslock::Shift
-return
+Capslock::^w					;Caps Lock acts as CTRL+W
 
 ; Always on Top
 ^SPACE:: Winset, Alwaysontop, , A ; ctrl + space
