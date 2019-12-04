@@ -12,7 +12,7 @@ Shortcuts
 | WIN+M      | Mute/unmute the volume      |
 | WIN+C      | Open the calculator         |
 | WIN+H      | Minimize the current window |
-| CAPS LOCK  | Acts as Shift button        |
+| CAPS LOCK  | CTRL+W, closes tab          |
 | CTRL+SPACE | Window always on top        |
 
 Download AutoHotkey [here](http://www.autohotkey.com).  
