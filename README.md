@@ -8,7 +8,7 @@ Shortcuts
 | Shortcuts  | Description                 |
 | ---------  | -----------                 |
 | WIN+H      | Minimize the current window |
-| CAPS LOCK  | CTRL+W, closes tab          |
+| CAPS LOCK  | Use Caps Lock as Ctrl       |
 
 Download AutoHotkey [here](http://www.autohotkey.com).  
 
